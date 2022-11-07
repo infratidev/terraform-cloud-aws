@@ -10,6 +10,8 @@
 
 Criação de três servidores web em três zonas de disponibilidade ```[us-east-1a,us-east-1b,us-east-1c]```, com domínio próprio ```infracode.sres.dev ```configurado no Route53 direcionando as requisições para o ALB (Application Load Balancer) utilizando TLS nas requisições entre usuário e alb. Nesse exemplo, os três servidores estão em subnets públicas com EIP alocados.
 
+![hcp-infracode.png](./images/hcp-infracode.png)
+
 ~~~
 .
 ├── acm.tf
